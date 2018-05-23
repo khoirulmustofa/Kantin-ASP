@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtNotDiscipline" msprop:Generator_TableClassName="dtNotDisciplineDataTable" msprop:Generator_TableVarName="tabledtNotDiscipline" msprop:Generator_TablePropName="dtNotDiscipline" msprop:Generator_RowDeletingName="dtNotDisciplineRowDeleting" msprop:Generator_RowChangingName="dtNotDisciplineRowChanging" msprop:Generator_RowEvHandlerName="dtNotDisciplineRowChangeEventHandler" msprop:Generator_RowDeletedName="dtNotDisciplineRowDeleted" msprop:Generator_UserTableName="dtNotDiscipline" msprop:Generator_RowChangedName="dtNotDisciplineRowChanged" msprop:Generator_RowEvArgName="dtNotDisciplineRowChangeEvent" msprop:Generator_RowClassName="dtNotDisciplineRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Nik" msprop:Generator_ColumnVarNameInTable="columnNik" msprop:Generator_ColumnPropNameInRow="Nik" msprop:Generator_ColumnPropNameInTable="NikColumn" msprop:Generator_UserColumnName="Nik" type="xs:string" minOccurs="0" />
+              <xs:element name="NameEmployee" msprop:Generator_ColumnVarNameInTable="columnNameEmployee" msprop:Generator_ColumnPropNameInRow="NameEmployee" msprop:Generator_ColumnPropNameInTable="NameEmployeeColumn" msprop:Generator_UserColumnName="NameEmployee" type="xs:string" minOccurs="0" />
+              <xs:element name="Dates" msprop:Generator_ColumnVarNameInTable="columnDates" msprop:Generator_ColumnPropNameInRow="Dates" msprop:Generator_ColumnPropNameInTable="DatesColumn" msprop:Generator_UserColumnName="Dates" type="xs:string" minOccurs="0" />
+              <xs:element name="ScanIn" msprop:Generator_ColumnVarNameInTable="columnScanIn" msprop:Generator_ColumnPropNameInRow="ScanIn" msprop:Generator_ColumnPropNameInTable="ScanInColumn" msprop:Generator_UserColumnName="ScanIn" type="xs:string" minOccurs="0" />
+              <xs:element name="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" msprop:Generator_UserColumnName="Status" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
